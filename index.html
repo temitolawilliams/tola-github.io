@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Project</title>
+	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/projectstyle.css">
+	<link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Asset' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg fixed-top bg-light" id="navbar">
+		<a href="index.html" class="logo ml-5 active">Geek Assembly</a>
+		<button data-toggle="collapse" type="button" class="navbar-toggler" data-target="#links" aria-controls="links"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span><i class="fa fa-bars" aria-hidden="true"></i></span>
+		</button>
+		<div class="collapse navbar-collapse" id="links">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item mr-5 ">
+					<a href="#Services" class="nav-link">Services</a>&nbsp;&nbsp;&nbsp;
+				</li>
+				<li class="nav-item mr-5">
+					<a href="#Portfolio" class="nav-link">Portfolio</a>&nbsp;&nbsp;&nbsp;
+				</li>
+				<!--	<li class="nav-item">
+								<a href="#About" class="nav-link">About</a>&nbsp;&nbsp;&nbsp;	
+							</li>-->
+				<li class="nav-item mr-5">
+					<a href="#Team" class="nav-link">Team</a>&nbsp;&nbsp;&nbsp;
+				</li>
+				<li class="nav-item mr-5">
+					<a href="#Contact-Us" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<header class="Home-Page-Content text-center">
+		<span>
+			<p id="greeting"></p>
+		</span>
+
+		<div id="intro">
+			<h4 class="pt-1">Welcome To Our Studio!</h4>
+			<h1>IT'S NICE TO MEET YOU</h1>
+			<a href="#Services" type="button" class="btn btn-secondary mb-5 btn-lg text-white">TELL ME MORE</a>
+		</div>
+	</header>
+
+
+
+
+	<div class="services text-center bg-white pt-5" id="Services">
+		<h2 class="service-title">SERVICES</h2>
+		<p>Our Services covers the following areas</p>
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col" id="service_one">
+					<span class="fa-stack fa-5x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-shopping-cart fa-stack-1x fa-inverse" style="color:yellow;"></i>
+					</span>
+					<h4>E-Commerce</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+
+				</div>
+				<div class="col" id="service_two">
+					<span class="fa-stack fa-5x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-laptop fa-stack-1x fa-inverse" style="color:yellow;"></i>
+					</span>
+					<h4>Responsive Designs</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+				</div>
+				<div class="col" id="service_three">
+					<span class="fa-stack fa-5x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-lock fa-stack-1x fa-inverse" style="color:yellow;"></i>
+					</span>
+					<h4>Web Security</h4>
+					<p class="mb-5">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="portfolio text-center bg-light pt-5" id="Portfolio">
+		<h2>PORTFOLIO</h2>
+		<p>See Our Portfolio</p>
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col-4 card">
+					<a class="card-link" data-toggle="modal" href="#portfolioModal1">
+
+						<img src="images/portfolio/01-thumbnail.jpg" class="img-fluid card-img-top"
+							style="position: relative">
+						<div class="card-body">
+							<h4 class="card-title">Threads</h4>
+							<em>
+								<p class="card-text text-muted">illustration</p>
+							</em>
+						</div>
+					</a>
+				</div>
+
+
+				<div class="col-4 card">
+					<a class="card-link" href="#portfolioModal2">
+						<img src="images/portfolio/02-thumbnail.jpg" class="img-fluid card-img-top"
+							style="position: relative">
+						<div class="card-body">
+							<h4 class="card-title">Explore</h4>
+							<em>
+								<p class="card-text text-muted">Graphic Design</p>
+							</em>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-4 card">
+					<a class="card-link" href="#portfolioModal3">
+						<img src="images/portfolio/03-thumbnail.jpg" class="img-fluid card-img-top"
+							style="position: relative">
+						<div class="card-body">
+							<h4 class="card-title">Finish</h4>
+							<em>
+								<p class="card-text text-muted">Identity</p>
+							</em>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-4 card mt-5 mb-5">
+					<a class="card-link" href="#portfolioModal4">
+						<img src="images/portfolio/04-thumbnail.jpg" class="img-fluid card-img-top"
+							style="position: relative">
+						<div class="card-body">
+							<h4 class="card-title">Lines</h4>
+							<em>
+								<p class="card-text text-muted">Branding</p>
+							</em>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-4 card mt-5 mb-5">
+					<a class="card-link" href="#portfolioModal5">
+						<img src="images/portfolio/05-thumbnail.jpg" class="img-fluid card-img-top"
+							style="position: relative">
+						<div class="card-body">
+							<h4 class="card-title">Southwest</h4>
+							<em>
+								<p class="card-text text-muted">Web Design</p>
+							</em>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-4 card mt-5 mb-5">
+					<a class="card-link" href="#portfolioModal6">
+						<img src="images/portfolio/06-thumbnail.jpg" class="img-fluid card-img-top"
+							style="position: relative">
+						<div class="card-body">
+							<h4 class="card-title">Window</h4>
+							<em>
+								<p class="card-text text-muted">Photography</p>
+							</em>
+						</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!--	<div class="about text-center" id="About">
+				<h2>ABOUT</h2>
+				<em><p>See who we are and what we represent</p></em>
+
+					<div class="container">
+						<div class="row">
+						
+							<div class="offset-md-2 col-3 about-content">
+								<h4>2009-2011</h4>
+								<h5>Our Humble Beginnings</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								q.</p>
+
+								<div class="col-2">
+								<img src="images/about/1.jpg" class="img-fluid rounded-circle">
+								</div>
+						
+							</div>							
+						</div>
+						
+					</div>
+					
+			</div>
+`			-->
+
+	<section class="team bg-light text-center pt-5" id="Team">
+		<h2>OUR AMAZING TEAM</h2>
+		<em>
+			<p>See the faces behind our brand!</p>
+		</em>
+
+		<div class="container pt-5">
+			<div class="row">
+				<div class="col-4 slideInRight" id="team1">
+					<img src="images/team/1.jpg" class="img-fluid rounded-circle team-image">
+					<h4 class="pt-4">Kay Garland</h4>
+					<p class="text-muted">Lead Designer</p>
+
+				</div>
+
+				<div class="col-4" id="team2">
+					<img src="images/team/2.jpg" class="img-fluid rounded-circle team-image">
+					<h4 class="pt-4">Larry Parker</h4>
+					<p class="text-muted">Lead Marketer</p>
+				</div>
+
+				<div class="col-4" id="team3">
+					<img src="images/team/3.jpg" class="img-fluid rounded-circle team-image">
+					<h4 class="pt-4">Dianna Peterson</h4>
+					<p class="text-muted">Lead Marketer</p>
+				</div>
+			</div>
+
+
+			<p class="text-center px-5 py-5">
+				You can contact them via their social media handles from the respective icons of the various social
+				media above
+				They would be glad to assst you in their varous fields of expertise about us
+			</p>
+		</div>
+		<section class="logo bg-white pt-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-3">
+						<a href="#logo1">
+							<img src="images/logos/creative-market.jpg">
+						</a>
+
+					</div>
+					<div class="col-3">
+						<a href="#logo2">
+							<img src="images/logos/designmodo.jpg">
+						</a>
+
+					</div>
+					<div class="col-3">
+						<a href="#logo3">
+							<img src="images/logos/envato.jpg">
+						</a>
+
+					</div>
+					<div class="col-3">
+						<a href="#logo4">
+							<img src="images/logos/themeforest.jpg">
+						</a>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+	</section>
+
+
+
+
+
+	<section class="contact-us pt-5 mb-5" id="Contact-Us">
+		<h2 class="text-white text-center pt-5">CONTACT US</h2>
+		<em>
+			<p class="text-center text-light">See below our contact details</p>
+		</em>
+
+		<div class="container mb-4">
+			<div class="row">
+				<div class="form-group col-md-6">
+					<input type="name" name="" placeholder="Your Name*" class="form-control"><br>
+					<input type="emal" name="" class="form-control" placeholder="Your Email*"><br>
+					<input type="phone number" name="" class="form-control" placeholder="Your Phone*">
+				</div>
+
+
+				<div class="col-md-6" id="message">
+					<input type="" name="" class="form-control" placeholder="Your Message*" id="message-box">
+				</div>
+			</div>
+
+		</div>
+		<div class="text-center" id="button">
+			<button class="btn btn-warning p-3 text-light">SEND MESSAGE</button>
+
+		</div>
+
+	</section>
+
+
+
+	<footer class="pt-5 pr-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<p>Copyright@ Your website 2019</p>
+
+				</div>
+				<div class="col-4" id="social-media">
+					<span class="fa-stack fa-1x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-twitter fa-stack-1x fa-inverse" style="color:white;"></i>
+					</span>
+					<span class="fa-stack fa-1x pl-5">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-facebook fa-stack-1x fa-inverse" style="color:white;"></i>
+					</span>
+					<span class="fa-stack fa-1x">
+						<i class="fa fa-circle fa-stack-2x text-primary"></i>
+						<i class="fa fa-instagram fa-stack-1x fa-inverse" style="color:white;"></i>
+
+					</span>
+
+				</div>
+
+				<div class="col-4">
+					<span>
+						<p>Privacy Policy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Terms of Use</p>
+
+					</span>
+
+
+				</div>
+				<p id="date"></p>
+			</div>
+
+		</div>
+
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
+	<!--<script src = "js/jquery-3.3.2.slim.min.js"></script>
+		<script src = "js/popper.min.js"></script>
+		<script src = "js/bootstrap.min.js"></script>-->
+
+
+
+</html>

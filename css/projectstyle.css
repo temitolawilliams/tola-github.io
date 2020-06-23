@@ -1,0 +1,108 @@
+body {
+  background-color: black;
+}
+#greeting {
+  font-size: 20px;
+  margin-right: 85%;
+  font-style: italic;
+  font-family: -apple-system;
+}
+
+.nav-item a {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+.nav-item a:hover {
+  color: #0b427c;
+}
+
+.logo {
+  color: rgb(100, 99, 99);
+  font-family: fantasy;
+  font-weight: bolder;
+}
+.nav-link {
+  color: blue;
+  text-decoration-line: all;
+  font-family: fantasy;
+  padding-top: 20px;
+}
+.Home-Page-Content {
+  margin-top: 100px;
+  padding: 90px 50px 90px 50px;
+  color: white;
+  font-size: 100px;
+  font-style: unset;
+  font-weight: 200px;
+  background-image: url('../images/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  background-color: white;
+  justify-content: center;
+  padding-top: 90px;
+}
+.about-content {
+  justify-content: right;
+}
+.card-img-top {
+  height: 100%;
+  width: 100%;
+}
+.card-img-top :hover {
+  height: 200%;
+  width: 200%;
+}
+.team-image {
+  height: 240px;
+  width: 240px;
+  border-width: 5px;
+  border-color: grey;
+  border-style: solid;
+}
+.contact-us {
+  background-image: url('../images/map-image.png');
+}
+#message > input {
+  height: 160px;
+}
+button {
+  justify-content: center;
+}
+h2 {
+  font-weight: 100px;
+}
+#date {
+  margin: auto;
+  background-color: rgba(85, 169, 197, 0.795);
+  color: black;
+  padding: 5px;
+}
+footer {
+  background-color: aliceblue;
+  margin: auto;
+}
+@media only screen and (max-width: 650px) {
+  .logo {
+    max-width: 80vw;
+  }
+  #social-media {
+    width: 50%;
+  }
+
+  footer {
+    max-width: 100vw;
+  }
+
+  #button > button {
+    padding: 2px 4px;
+    font-size: 70%;
+    line-height: 0.8;
+  }
+  .card-body > h4 {
+    font-size: 90%;
+  }
+}
